@@ -1,0 +1,702 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navlinks1 {
+  height: 40px;
+  width: 100%;
+  background-color: #013196;
+  border: 1px solid #013196;
+}
+.navlinks1 ul {
+  display: flex;
+  gap: 30px;
+  margin: 10px 40px;
+}
+.navlinks1 ul li {
+  list-style-type: none;
+}
+.navlinks1 ul li a {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 12px;
+}
+.secondNavbar {
+  display: flex;
+  justify-content: space-between;
+
+  height: 80px;
+  width: 100%;
+  background-color: #0046be;
+  border: 1px solid #0046be;
+}
+.secondLeftNav {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo img {
+  height: 50px;
+  width: 70px;
+  margin: 15px 40px;
+}
+.menubar {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 25px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.menubar h4 {
+  padding: 4px 0px;
+}
+
+.searchInput {
+  position: relative;
+  margin: 17.5px 20px;
+}
+.searchIcon {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left: 92%;
+  top: 25%;
+}
+.searchInput input {
+  padding: 11px 20px;
+  width: 450px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.secondRightNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+.secondRightNav svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.secondRightNav span {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding: 0px 20px 20px 1px;
+  line-height: 16px;
+}
+.secondRightNav span a {
+  color: #fff;
+}
+.secondRightNav span a:hover {
+  text-decoration: underline;
+}
+.navborder {
+  color: #fff;
+}
+
+.thirdNavbar {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  background-color: #0046be;
+}
+.leftThirdNavBar ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 10px 20px 10px 40px;
+}
+
+.leftThirdNavBar ul li a {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 14px;
+}
+.leftThirdNavBar ul li a:hover {
+  text-decoration: underline;
+}
+.rightThirdNavBar ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 40px;
+  padding: 10px 20px 10px 40px;
+  gap: 40px;
+}
+.rightThirdNavBar ul li a {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.accountlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.container1 {
+  display: flex;
+  height: 80%;
+  width: 100%;
+
+  background-color: #013196;
+}
+.textSection {
+  margin: 1px 40px;
+  padding: 20px;
+}
+
+.topheadline {
+  color: #fff200;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 37px;
+  font-weight: bold;
+  line-height: 50px;
+}
+.midheadline {
+  color: #fff200;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 94px;
+  font-weight: 700;
+  line-height: 87px;
+}
+.goldbar {
+  background-image: url(./Image/Gold\ Bar.jpg);
+  width: 300px;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 12px;
+  margin-top: 32px;
+  color: #001e73;
+  font-weight: 700;
+}
+.lowerheadline {
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 24px;
+  color: #fff;
+}
+.disclaimer {
+  font-size: 11px;
+  color: #fff;
+  margin-top: 24px;
+}
+.shopNowButton {
+  background-color: #ffe000;
+  height: 45px;
+  margin-top: 24px;
+  padding: 0 12px;
+  align-items: center;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 0;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 600;
+}
+.shopNowButton a {
+  color: #040c13;
+}
+.rightSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.svgUpper {
+  height: 260px;
+  width: 420px;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.svgLower {
+  height: 260px;
+  width: 420px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.imageSection {
+  height: 150px;
+  width: 320px;
+  margin: 10px 30px;
+}
+.imageSection img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.text h2 {
+  font-size: 17px;
+  height: 48px;
+  margin: 8px 20px 10px 20px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #1d252c;
+}
+.shopNowLink {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 1px 20px 0px 20px;
+}
+.shopNowLink a:hover {
+  text-decoration: underline;
+  color: #001e73;
+}
+
+.categoryContainer {
+  height: 40vh;
+  width: 100%;
+  padding: 25px;
+  background-color: #013196;
+}
+.category {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+.carousel {
+  margin-top: 20px;
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+.carouselItems1 {
+  height: 185px;
+  width: 130px;
+  margin-left: 30px;
+}
+.carouselItems1 h3 {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+.carouselItems1 h3 a {
+  color: #ffe000;
+}
+.carouselItems {
+  height: 185px;
+  width: 130px;
+}
+.imageItem {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #fff;
+}
+.imageItem img {
+  height: 88px;
+  width: 88px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.carouselItems h3 {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+.carouselItems h3 a {
+  color: #ffe000;
+}
+.newArrivals {
+  margin: 40px 15px;
+  padding: 15px;
+  border-bottom: 1px solid #013196;
+}
+.newArrivals h3 {
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 16px;
+  text-decoration-thickness: 3px;
+}
+.arrivalContainers {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+.arrivalItems {
+  width: 270px;
+  border: 0.5px solid #013196;
+  border-radius: 8px;
+  padding: 16px;
+}
+.arrivalImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  width: 240px;
+  /* border: 1px solid rebeccapurple; */
+}
+.arrivalImage img {
+  width: 236px;
+}
+.arrivalItems p {
+  font-size: 13px;
+  margin-top: 15px;
+}
+.deals {
+  width: 100%;
+  display: flex;
+}
+.leftOutletDeals {
+  margin: 20px;
+  padding: 20px;
+  width: 49%;
+  height: 260px;
+  border: 1px solid #013196;
+  border-radius: 8px;
+}
+.outletTitle {
+  background-color: #0046be;
+  margin: 20px;
+  padding: 4px 8px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+.outletTitle span {
+  color: #fff200;
+}
+.leftOutletBox {
+  display: flex;
+}
+.outletBoxLeft {
+  width: 200px;
+  height: 120px;
+  margin: 10px 30px 10px;
+}
+.outletBoxLeft img {
+  width: 200px;
+  height: 120px;
+}
+.outletBoxRight {
+  width: 600px;
+  height: 80px;
+  margin: 10px 30px 10px;
+
+  font-size: 16px;
+}
+.outletBoxRight button {
+  padding: 10px 8px;
+  margin-top: 25px;
+  border: 1px solid #0046be;
+  color: #0046be;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 13px;
+  outline: none;
+  border-radius: 6px;
+  width: 130px;
+  cursor: pointer;
+}
+.outletBoxRight button:hover {
+  background-color: #0046be;
+  color: #fff;
+}
+.rightDealsOfTheDay {
+  margin: 20px;
+  padding: 20px;
+  width: 45%;
+  height: 260px;
+  border: 1px solid #013196;
+  border-radius: 8px;
+}
+.dealofthedayBox {
+  display: flex;
+}
+.leftdealofthedayBox {
+  width: 200px;
+  height: 120px;
+  margin: 10px 30px 10px;
+}
+.leftdealofthedayBox img {
+  width: 200px;
+  height: 120px;
+}
+.dealTitle {
+  background-color: #bb0628;
+  margin: 10px;
+  padding: 4px 8px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+.rightdealofthedayBox {
+  width: 700px;
+  height: 100px;
+  margin: 10px 30px 10px;
+
+  font-size: 16px;
+}
+.rightdealofthedayBox a:hover {
+  text-decoration: underline;
+  color: #001e73;
+}
+.price {
+  margin-top: 10px;
+}
+.rightdealofthedayBox button {
+  padding: 8px 8px;
+  margin-top: 10px;
+  border: 1px solid #0046be;
+  color: #0046be;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 13px;
+  outline: none;
+  border-radius: 6px;
+  width: 180px;
+  cursor: pointer;
+}
+.rightdealofthedayBox button:hover {
+  background-color: #0046be;
+  color: #fff;
+}
+.dropContainer {
+  display: flex;
+  margin: 20px;
+  padding: 38px 0 38px 32px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 11%,
+    rgba(74, 74, 79, 1) 100%
+  );
+}
+.apps-exclusive-badge {
+  align-items: center;
+  color: #fff200;
+  fill: currentcolor;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  gap: 6px;
+  height: 36px;
+}
+.drops-logo {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  width: 132px;
+  margin-top: 10px;
+}
+.drop-subHeader {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding: 24px 0;
+  width: 194px;
+}
+.drop-button {
+  width: 184px;
+  font-size: 13px;
+  height: 30px;
+  padding: 0 8px;
+  background-color: #ffe000;
+  color: #040c13;
+  align-items: center;
+  border-radius: 4px;
+  border-style: solid;
+  cursor: pointer;
+}
+.dropSubContainerRight {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.dropCarousel {
+  margin-left: 5px;
+  width: 160px;
+  height: 220px;
+  border: 1px solid yellow;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 8px;
+  overflow: hidden;
+}
+.dropCarousel .topText {
+  font-size: 13px;
+  text-align: center;
+  background-color: #e0e6ef;
+  padding: 4px 8px;
+  width: 100%;
+}
+.dropCarousel img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropCarousel .dropTitle {
+  font-size: 12px;
+  text-align: left;
+  padding: 10px;
+}
+footer {
+  background-color: #eff2f4;
+  padding: 40px;
+}
+.topFooter {
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgb(56, 53, 53);
+}
+.topFooterbox {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.topFooterbox svg {
+  fill: rgba(0, 0, 0, 0.654);
+  height: 55px;
+}
+.topFooterbox a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #0046be;
+}
+.topFooterbox a:hover {
+  text-decoration: underline;
+  color: #001e73;
+}
+.middleFooter {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.upperLists {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.listSection h3 {
+  font-size: 17px;
+}
+.listSection ul {
+  margin-top: 10px;
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.listSection ul li {
+  padding: 7px 0px;
+}
+.listSection ul li a {
+  color: #0046be;
+}
+.listSection ul li a:hover {
+  text-decoration: underline;
+  color: #001e73;
+}
+.lowerLists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.contactForm {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  height: 100%;
+}
+.contactForm a {
+  color: #0046be;
+  text-decoration: none;
+  font-weight: bold;
+}
+.contactForm hr {
+  border: none;
+  height: 1px;
+  background-color: #b8c3b8b2;
+  margin: 20px 0;
+}
+.contactForm h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.contactForm .email {
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+  max-width: 100%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contactForm button {
+  padding: 10px 20px;
+  background-color: #0046be;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.appLink {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+.appLink svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contactForm a {
+  color: #0046be;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 40px 1px;
+}
+.contactForm a:hover {
+  text-decoration: underline;
+  color: #001e73;
+}
+.socialIcons {
+  margin-top: 20px;
+}
+.socialIcons a img {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #0046be;
+}
